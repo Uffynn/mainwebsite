@@ -95,7 +95,7 @@ body {
 .task {
     display: flex;
     align-items: flex-start;
-    margin-bottom: 4px;
+    margin-bottom: 3px;
     line-height: 1.6;
     font-size: 14px;
     padding: 4px 0;
