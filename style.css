@@ -36,11 +36,11 @@ body {
 .pixel-wizard {
     width: 120px;
     height: 120px;
-    background-image: url('wizard.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    border-radius: 20px; /* optional */
     image-rendering: pixelated;
+    object-fit: cover; /* ensures it stays inside box */
+    display: block;
+}
 }
 
 .content {
