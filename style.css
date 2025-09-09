@@ -44,9 +44,16 @@ body {
     display: block;
 }
 
-.content {
-    text-align: center;
-    max-width: 500px;
+.nav-link {
+    color: #4299e1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: color 0.2s ease;
+    padding: 10px 20px;
+    border: 1px solid #4299e1;
+    border-radius: 6px;
+    display: inline-block;
 }
 
 .name {
