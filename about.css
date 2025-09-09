@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background: #2d3748;
+    color: #e2e8f0;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    margin-bottom: 40px;
+}
+
+.phase-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #b794f6;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* Content area */
+.content {
+    max-width: 900px;
+}
+
+/* Task list */
+.task-list {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.task {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 8px 0;
+}
+
+.task.completed .checkbox {
+    color: #68d391;
+    font-weight: 600;
+}
+
+.checkbox {
+    color: #68d391;
+    margin-right: 12px;
+    font-weight: 600;
+    min-width: 25px;
+}
+
+.task-id {
+    color: #90cdf4;
+    font-weight: 600;
+    margin-right: 12px;
+    min-width: 50px;
+}
+
+.task-desc {
+    color: #e2e8f0;
+    flex: 1;
+}
+
+/* Navigation */
+.navigation {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #4a5568;
+}
+
+.nav-link {
+    color: #b794f6;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: #d6bcfa;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 15px;
+    }
+    
+    .container {
+        padding: 10px;
+    }
+    
+    .phase-title {
+        font-size: 22px;
+    }
+    
+    .task {
+        font-size: 14px;
+    }
+    
+    .task-id {
+        min-width: 45px;
+    }
+}
