@@ -28,19 +28,21 @@ body {
 .avatar-container {
     background: #d47fb8;
     border-radius: 20px;
-    padding: 40px;
+    padding: 20px; /* space around the image */
     margin-bottom: 40px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pixel-wizard {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px; /* optional */
-    image-rendering: pixelated;
-    object-fit: cover; /* ensures it stays inside box */
+    width: 150px; /* adjust to desired size */
+    height: 150px; /* adjust to desired size */
+    border-radius: 50%; /* makes it circular */
+    object-fit: cover; /* ensures the image stays inside the box */
+    image-rendering: pixelated; /* if you want a pixel art effect */
     display: block;
-}
 }
 
 .content {
