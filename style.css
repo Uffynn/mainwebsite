@@ -39,7 +39,6 @@ body {
 .pixel-wizard {
     width: 150px; /* adjust to desired size */
     height: 150px; /* adjust to desired size */
-
     object-fit: cover; /* ensures the image stays inside the box */
     image-rendering: pixelated; /* if you want a pixel art effect */
     display: block;
