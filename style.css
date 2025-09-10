@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: 'Inter', sans-serif;
     background: linear-gradient(135deg, #f0e6f7 0%, #e8d5f0 100%);
@@ -16,7 +14,6 @@ body {
     color: #333;
     padding: 20px;
 }
-
 .container {
     display: flex;
     flex-direction: column !important;
@@ -24,7 +21,6 @@ body {
     max-width: 600px;
     width: 100%;
 }
-
 .avatar-container {
     background: #d47fb8;
     border-radius: 20px;
@@ -35,7 +31,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 .pixel-wizard {
     width: 150px; /* adjust to desired size */
     height: 150px; /* adjust to desired size */
@@ -43,7 +38,10 @@ body {
     image-rendering: pixelated; /* if you want a pixel art effect */
     display: block;
 }
-
+.content {
+    text-align: center; /* Center all content within this div */
+    width: 100%;
+}
 .nav-link {
     color: #4299e1;
     text-decoration: none;
@@ -55,28 +53,29 @@ body {
     border-radius: 6px;
     display: inline-block;
 }
-
+.navigation {
+    text-align: center; /* Center the navigation button */
+    margin-top: 20px; /* Add some spacing above the button */
+}
 .name {
     font-size: 28px;
     font-weight: 600;
     color: #4a5568;
     margin-bottom: 25px;
     letter-spacing: 3px;
+    text-align: center; /* Center the title */
 }
-
 .description {
     font-size: 14px;
     line-height: 1.7;
     color: #718096;
     margin-bottom: 35px;
-    text-align: left;
+    text-align: center; /* Center the description text */
 }
-
 .projects-list {
     list-style: none;
     text-align: left;
 }
-
 .projects-list li {
     font-size: 14px;
     color: #4299e1;
@@ -86,7 +85,6 @@ body {
     cursor: pointer;
     transition: all 0.2s ease;
 }
-
 .projects-list li::before {
     content: '•';
     color: #4299e1;
@@ -94,12 +92,10 @@ body {
     left: 0;
     font-weight: bold;
 }
-
 .projects-list li:hover {
     color: #2b6cb0;
     transform: translateX(4px);
 }
-
 @media (max-width: 768px) {
     .container {
         padding: 0 15px;
