@@ -70,7 +70,7 @@ body {
     line-height: 1.7;
     color: #718096;
     margin-bottom: 35px;
-    text-align: center; /* Center the description text */
+    text-align: left; /* Keep description text left-aligned */
 }
 .projects-list {
     list-style: none;
