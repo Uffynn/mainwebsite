@@ -53,6 +53,11 @@ body {
     border-radius: 6px;
     display: inline-block;
 }
+.nav-link:hover {
+    color: #2b6cb0;
+    border-color: #2b6cb0;
+    background: rgba(66, 153, 225, 0.1);
+}
 .navigation {
     text-align: center; /* Center the navigation button */
     margin-top: 20px; /* Add some spacing above the button */
